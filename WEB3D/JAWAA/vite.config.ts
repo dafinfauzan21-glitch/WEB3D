@@ -4,6 +4,7 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/WEB3D/'
   server: {
     port: parseInt(process.env.PORT || '5175'),
     strictPort: true,
